@@ -1,0 +1,389 @@
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url(./puntitos.jpg);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.logo {
+  width: 54px;
+  height: 50px;
+}
+@media (min-width: 710px) {
+  .logo {
+    width: 95px;
+    height: 109px;
+  }
+}
+.lineasPadre {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+.linea {
+  width: 36px;
+  height: 6px;
+  background-color: rgb(58, 58, 58);
+}
+p.navegacion {
+  display: none;
+}
+.contenedorDeNav {
+  display: none;
+}
+@media (min-width: 710px) {
+  .contenedorDeNav {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+  }
+  p.navegacion {
+    display: flex;
+    margin: 10px;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .lineasPadre {
+    display: none;
+  }
+}
+
+.sectionOne {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+}
+
+.tituloSectionUno {
+  margin-top: 60px;
+  height: 96px;
+  width: 291px;
+  left: 42px;
+  top: 162px;
+  border-radius: nullpx;
+
+  font-family: Open Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -1px;
+  text-align: center;
+}
+.contenedorUno {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-content: center;
+}
+.sectionTwo {
+  width: 100%;
+  height: 526px;
+}
+
+@media (min-width: 710px) {
+  .sectionOne {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contenedorUno {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .imagen-perfil {
+    margin: 25px;
+  }
+  .tituloSectionUno {
+    margin: 25px;
+  }
+}
+.sectionTwo {
+  display: flex;
+  background-color: #141414;
+  width: 100%;
+  height: 538px;
+  align-content: center;
+  justify-content: center;
+  color: #fafafa;
+}
+.contenedorSection2 {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 450px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 55px;
+}
+.contenedorParaElTexto {
+  text-align: center;
+}
+.titulosectionDos {
+  color: #fafafa;
+  margin-bottom: 70px;
+}
+.parrafoSection3 {
+  width: 312px;
+  height: 193px;
+  font-size: 20px;
+}
+.chech {
+  width: 80px;
+  height: 80px;
+}
+@media (min-width: 1084px) {
+  .sectionTwo {
+  }
+  .contenedorSection2 {
+    flex-direction: row-reverse;
+    justify-content: center;
+    text-align: left;
+    width: 480px;
+    padding: 0;
+  }
+  .titulosectionDos {
+    font-family: Open Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -2px;
+    text-align: left;
+  }
+  .contenedorParaElTexto {
+    margin-left: 90px;
+    text-align: left;
+    width: 532px;
+    height: 237px;
+  }
+  .chech {
+    width: 211px;
+    height: 211px;
+  }
+  .parrafoSection3 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 165px;
+    font-size: 24px;
+    width: 650px;
+    max-width: none;
+  }
+}
+.sectionThree {
+  width: 100%;
+  height: 1375px;
+  background: rgba(250, 250, 250, 1);
+}
+.contenedorSectionTres {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 1200px;
+  width: 100%;
+}
+.contenedorDeServicios {
+  text-align: center;
+  margin: 60px;
+}
+.misServicios {
+}
+.contenedorDeHagoCosas {
+  justify-content: space-between;
+  height: 1000px;
+  justify-items: center;
+  padding: 30px;
+}
+.hagocosas {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 108px;
+}
+.textoHagoCosas {
+  width: 100%;
+  text-align: center;
+}
+.parrafoHagoCosas {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+@media (min-width: 950px) {
+  .contenedorDeServicios {
+    margin: 25px;
+  }
+
+  .misServicios {
+    font-size: 48px;
+  }
+
+  .sectionThree {
+    height: 604px;
+  }
+
+  .contenedorSectionTres {
+    height: 100%;
+  }
+
+  .contenedorDeHagoCosas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+  }
+  .hagocosas {
+    width: 312px;
+  }
+}
+.sectionFour {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 20px;
+  flex-direction: column;
+  background-color: #141414;
+}
+.escribime {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #fafafa;
+  margin: 0px 0px 60px 0px;
+  padding: 0px;
+}
+.form {
+  display: grid;
+  gap: 27px;
+  width: 100%;
+  max-width: 376px;
+}
+.label {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  display: block;
+  padding: 0px;
+  margin-bottom: 9px;
+  color: #fafafa;
+}
+.boton {
+  background-color: #ffd953;
+  font-size: 18px;
+  height: 45px;
+  border: none;
+  border-radius: 2px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  margin-top: 33px;
+}
+.input-email,
+.textarea,
+.input-nombre {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  border: none;
+  width: 100%;
+  font-size: 12px;
+  margin: 0px;
+  border-style: inset;
+}
+.input-email,
+.input-nombre {
+  height: 45px;
+}
+.textarea {
+  height: 113px;
+  resize: none;
+}
+@media (min-width: 769px) {
+  .sectionFour {
+    padding: 116px 0px;
+    flex-direction: row;
+    gap: 77px;
+    align-items: flex-start;
+  }
+  .escribime {
+    font-size: 48px;
+  }
+}
+.sectionFive {
+  background: rgba(219, 219, 219, 1);
+  width: 100%;
+  height: 493px;
+  display: flex;
+  flex-direction: column;
+}
+.contenedorLogo {
+  display: flex;
+  flex-direction: column;
+  width: 85px;
+
+  margin: 16px;
+}
+.copy {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+}
+.contenedorRedes {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 15px;
+}
+.instagram {
+  margin-bottom: 29px;
+}
+.linkedin {
+  margin-bottom: 29px;
+}
+.github {
+  margin-bottom: 29px;
+}
+
+@media (min-width: 769px) {
+  .sectionFive {
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(./puntitos.png);
+  }
+  .contenedorRedes {
+    justify-content: center;
+  }
+  .contenedorLogo {
+    justify-content: center;
+  }
+}
